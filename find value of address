@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float  a=20.0;
+	float* ptr=&a;
+	
+	cout<<"the value of a is "<<a<<endl;
+	cout<<"the value of &a is "<<*(&a)<<endl;
+
+
+	
+	return 0;
+	
+}
