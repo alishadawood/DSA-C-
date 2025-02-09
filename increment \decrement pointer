@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+int a=10;
+int* ptr=&a;
+
+	cout<<"the value of ptr is "<<ptr<<endl;
+	ptr++;
+		cout<<"the value of increment is "<<ptr<<endl;
+		ptr--;
+			cout<<"the value of decrement is "<<ptr<<endl;
+
+
+	return 0;
+	
+}
