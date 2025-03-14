@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=20;
+	int b=10;
+	int *ptr=&b;
+	cout<<"pointer which point value "<<*ptr<<endl;
+	ptr=&a;
+		cout<<"after changing value "<<*ptr<<endl;
+		return 0;
+
+
+}
